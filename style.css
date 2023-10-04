@@ -1,0 +1,85 @@
+/* 태그 생상 지정 */
+/* 띄어쓰기는 -로 대체 */
+.tag-위험 {
+    background-color: #eae4e5c3 !important;
+}
+.tag-기술-용어 {
+    background-color: #ADD8E6 !important;
+}
+.tag-언어모델 {
+    background-color: #d5e6ad !important;
+}
+.tag-프롬프트-엔지니어링 {
+    background-color: #eba5ec !important;
+}
+.tag-인공지능-방법론 {
+    background-color: #f3d0bf !important;
+}
+.tag-일반-용어 {
+    background-color: #fbfefe !important;
+}
+.tag-알고리즘 {
+    background-color: #c2f1d7 !important;
+}
+.tag-언어모델-튜닝-용어 {
+    background-color: #9ceaa9 !important;
+}
+.tag-기법 {
+    background-color: rgb(209, 215, 249) !important;
+}
+
+
+
+div[data-testid="stExpander"] div[role="button"] p {
+    font-size: 1.2rem;
+}
+.definition-container {
+    display: flex;
+    align-items: center;
+}
+
+.definition-label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.tag-container {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.example-text {
+    font-size: 0.9rem;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.5em;
+    padding: 1em 3em;   /* Top and bottom 1em, left and right 3em */
+    background-color: #eff3f6; /* A softer blue shade */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);  /* subtle shadow */
+    position: relative;
+    margin-bottom: 1rem; /* Space between the boxes */
+    word-break: keep-all;
+}
+
+
+
+.example-link {
+    position: relative;   
+    right: 0;            /* push it to the right */
+    opacity: 0;          /* make it invisible */
+    transition: opacity 0.2s; /* animation for fading in */
+}
+
+.example-text:hover .example-link {
+    opacity: 1; /* make it visible when hovering over the text */
+}
+
+.stButton {
+    width: 60px !important;
+}
